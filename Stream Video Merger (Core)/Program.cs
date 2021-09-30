@@ -34,6 +34,15 @@ namespace Stream_Video_Merger__Core_
             List<string> allMusic = new List<string>();
 
             string[] audioFileTypes = { ".MP3", ".WAV", ".OGG", ".WMA" };    //Check if ffmpeg can even use crap like .wma
+            //Assuming this shit will always come in alp
+            foreach (var item in args)
+            {
+                var mediaInfoo = FFProbe.Analyse(item);
+                if (!(audioFileTypes.Contains(Path.GetExtension(item).ToUpper()))) //Is there a non-shit way to do this?
+                    allVideos.Add(item);
+                else
+                    allMusic.Add(item);
+            }
 
             allVideos.Sort();   //Alphabetically because why would you want a later part of the piece in the front?
 
