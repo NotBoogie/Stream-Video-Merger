@@ -3,7 +3,7 @@ Automates combining stream recordings into one long video and .zips it for you. 
 
 Control the result file type, zip, and webm generation in the settings.json file. settings.json will be created with default options on first execution (if one isn't found)
 
-Requires FFMPEG.exe and FFPROBE.exe to be in your PATH.
+Requires FFMPEG.exe and FFPROBE.exe to be in your PATH. ( https://www.wikihow.com/Install-FFmpeg-on-Windows explains setup better than I could)
 
 Derivative of FUSER project.
 
