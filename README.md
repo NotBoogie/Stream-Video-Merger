@@ -1,10 +1,48 @@
-# Stream-Video-Merger
-Automates combining stream recordings into one long video and .zips it for you. Drag OBS recordings into .exe to create.
 
-Control the result file type, zip, and webm generation in the settings.json file. settings.json will be created with default options on first execution (if one isn't found)
+<br>
 
-Requires FFMPEG.exe and FFPROBE.exe to be in your PATH. ( https://www.wikihow.com/Install-FFmpeg-on-Windows explains setup better than I could)
+<div align = center>
 
-Derivative of FUSER project.
+![Badge .Net]   
+![Badge Based]
 
-Runs on .net 5.0
+<br>
+
+# Stream Video Merger
+
+*Automates combining stream recordings* <br>
+*into one long video, as well as zipping it.*
+
+<br>
+<br>
+
+[![Button Download]][Download]
+
+[![Button Install]][Install]
+
+[![Button Usage]][Usage]
+
+</div>
+
+<br>
+
+
+<!----------------------------------------------------------------------------->
+
+[Download]: https://github.com/NotBoogie/Stream-Video-Merger/releases
+
+[Install]: Documentation/Installation.md
+[Usage]: Documentation/Usage.md
+
+
+<!---------------------------------[ Badges ]---------------------------------->
+
+[Badge Based]: https://img.shields.io/badge/Based_On-FUSER-415986?style=for-the-badge&logoColor=white&labelColor=5879b5&logo=Puppet
+[Badge .Net]: https://img.shields.io/badge/-5.0-418643?style=for-the-badge&logoColor=white&labelColor=53AC56&logo=.NET
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Download]: https://img.shields.io/badge/Download-b51d5a?style=for-the-badge&logoColor=white&logo=DocuSign
+[Button Install]: https://img.shields.io/badge/Installation-5879b5?style=for-the-badge&logoColor=white&logo=GitBook
+[Button Usage]: https://img.shields.io/badge/Usage-53ac56?style=for-the-badge&logoColor=white&logo=BookStack
